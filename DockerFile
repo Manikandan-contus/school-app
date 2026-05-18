@@ -1,0 +1,5 @@
+# Build the image
+docker build -t school-app .
+
+# Run the container
+docker run -p 3000:80 school-app
